@@ -3,8 +3,21 @@ header {
   justify-content: center;
 }
 
-.story-section {
-  margin: 20px 0px;
+main {
+  display: flex;
+}
+
+aside {
+  width: 30%;
+  margin: 0px 20px;
+}
+
+.right-page-section {
+  width: 70%;
+}
+
+.story-article {
+  margin: 0px 0px 20px;
 }
 
 .story-heading {
