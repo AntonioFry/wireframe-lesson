@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.story-section {
+  margin: 20px 0px;
+}
+
+.story-heading {
+  margin: 10px 0px;
+}
+
+.paragraphs {
+  margin: 0px;
+}
