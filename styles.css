@@ -8,6 +8,9 @@ main {
 }
 
 aside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 30%;
   margin: 0px 20px;
 }
@@ -22,8 +25,13 @@ aside {
 
 .story-heading {
   margin: 10px 0px;
+  width: 100%;
 }
 
 .paragraphs {
   margin: 0px;
+}
+
+img {
+  margin: 10px;
 }
