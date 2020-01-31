@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -10,6 +14,7 @@ main {
 aside {
   display: flex;
   flex-wrap: wrap;
+  place-self: start;
   justify-content: center;
   width: 30%;
   margin: 0px 20px;
@@ -23,10 +28,9 @@ aside img {
   width: 70%;
 }
 
-.story-article {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0px 0px 20px;
+.floated {
+  width: 20%;
+  float: left;
 }
 
 .article-content {
@@ -40,8 +44,11 @@ aside img {
 
 .paragraphs {
   margin: 0px;
+  width: fit-content;
 }
 
 img {
-  margin: 0px 10px;
+  border: 1px black solid;
+  float: left;
+  margin: 0px 10px 10px;
 }
