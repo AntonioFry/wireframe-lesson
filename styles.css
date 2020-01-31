@@ -2,6 +2,27 @@
   box-sizing: border-box;
 }
 
+body {
+  border: black solid 1px;
+  padding: 10px;
+}
+
+h1 {
+  border-top: solid black 3px;
+  border-bottom: solid black 3px;
+  font-family: Chancery, cursive;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.story-heading {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 10px 0px;
+  text-decoration: underline black;
+  width: 100%;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -28,21 +49,18 @@ aside img {
   width: 70%;
 }
 
+.story-article {
+  margin: 20px;
+  overflow: hidden;
+}
+
 .floated {
   width: 20%;
   float: left;
 }
 
-.article-content {
-  display: flex;
-}
-
-.story-heading {
-  margin: 10px 0px;
-  width: 100%;
-}
-
 .paragraphs {
+  font-size: 1.5em;
   margin: 0px;
   width: fit-content;
 }
